@@ -1,0 +1,162 @@
+body{
+    background-color:orange;
+    font-family: 'Montserrat', sans-serif;
+
+  } 
+  
+header{
+    background-image:url("https://static.cookist.it/wp-content/uploads/sites/21/2020/03/Pane-pugliese-1200x675.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border: 7px solid #FFDEAC;
+    position:relative;
+    display:flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+#overlay {
+  background-color:
+    rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media(max-width:500px){
+  body{
+    height: 400px;
+		width: 490px;
+  }
+}
+ 
+  h1{
+    font-family: 'Raleway', 'sans-serif';
+    position:absolute;
+    font-size: 25px;
+    color:white;
+    line-height: 11px;
+    margin-left:15px;
+    bottom: 0px;
+    left:10px;
+    font-style: oblique;
+    letter-spacing: 1px;
+  }
+
+ 
+  @media(max-width: 900px){
+    h1{
+      display: none;
+    }
+  }
+
+
+
+h3{
+      margin: 40px;
+	  margin-top: 100px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      font-weight:900;
+      color: #212121;
+      background-color: white;
+      border-radius: 10px;
+      text-transform: uppercase;
+
+  }
+
+#logo{
+    height: 300px;
+    width:185px;
+	margin-top: 200px;
+    border: 7px solid white;
+  }
+
+  .logo{
+    position:relative;
+	display:flex;
+	justify-content: center;
+    
+  }
+
+  @media(max-width: 900px){
+    #logo{
+      width: 150px;
+      height: auto;
+      
+    }
+   
+  }
+
+h5{
+    display: none;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    left:40px;
+    
+  }
+
+  @media(max-width: 900px){
+    h5{
+      display: block;
+    }
+  }
+
+.container{
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #212121;
+  border: 10px solid #FFDEAC;
+  color: white;
+}
+
+ footer{
+	position: fixed;
+	width: 99%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: right;
+   height: 100px;
+   background-color: #212121;
+   border-top: 10px solid white;
+   bottom:0;
+  
+  }
+
+  footer span{
+    color: rgb(180, 138, 0);
+    font-size:20px;
+	margin: 10px;
+  }
+
+ p{
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+  }
+
+
+#num{
+	color:#FFD700;
+	font-size: 30px;
+}
+
+#recensione{
+	display: flex;
+	margin-left: 10%;
+	margin-right:10%;
+	justify-content:space-between;
+	align-items: center;
+}
+#recensione span{
+	width: 105px;
+}

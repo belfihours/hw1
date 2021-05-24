@@ -1,0 +1,163 @@
+body{
+    background-color:orange;
+    font-family: 'Montserrat', sans-serif;
+
+  } 
+  
+header{
+    background-image:url("https://static.cookist.it/wp-content/uploads/sites/21/2020/03/Pane-pugliese-1200x675.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border: 7px solid #FFDEAC;
+    position:relative;
+    display:flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+#overlay {
+  background-color:
+    rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media(max-width:500px){
+  body{
+    height: 400px;
+		width: 490px;
+  }
+}
+ 
+  h1{
+    font-family: 'Raleway', 'sans-serif';
+    position:absolute;
+    font-size: 25px;
+    color:white;
+    line-height: 11px;
+    margin-left:15px;
+    bottom: 0px;
+    left:10px;
+    font-style: oblique;
+    letter-spacing: 1px;
+  }
+
+ 
+  @media(max-width: 900px){
+    h1{
+      display: none;
+    }
+  }
+
+
+
+h3{
+      margin: 40px;
+	  margin-top: 100px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      font-weight:900;
+      color: #212121;
+      background-color: white;
+      border-radius: 10px;
+      text-transform: uppercase;
+
+  }
+
+  #logo{
+    height: 300px;
+    width:185px;
+    margin-top: 200px;;
+    border: 7px solid white;
+  }
+
+  .logo{
+    position:relative;
+    
+  }
+
+  @media(max-width: 900px){
+    #logo{
+      width: 150px;
+      height: auto;
+      
+    }
+   
+  }
+
+h5{
+    display: none;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    left:40px;
+    
+  }
+
+  @media(max-width: 900px){
+    h5{
+      display: block;
+    }
+  }
+ 
+form{
+  height: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #212121;
+  border: 10px solid #FFDEAC;
+  color: white;
+}
+label{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 14px 15% 14px 15%;
+	padding-top: 20px;
+	
+}
+input{
+	margin-left: 0.5em;
+}
+
+ footer{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: right;
+   height: 100px;
+   margin-bottom: -20px;
+   background-color: #212121;
+   border-top: 10px solid white;
+  
+  }
+
+  footer span{
+    color: rgb(180, 138, 0);
+    font-size:20px;
+  }
+
+  p{
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+  }
+  p a:hover{
+	  background-color: white;
+	  border-radius: 3px;
+  }
+  
+ .error{
+	display: flex
+	 justify-content: center;
+	 font-weight: bold;
+	 color: red;
+ }
+ 
